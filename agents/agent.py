@@ -8,7 +8,7 @@ from typing import Optional, List, Dict
 from typing_extensions import Annotated, TypedDict
 from langgraph.prebuilt import create_react_agent, ToolNode
 from langgraph.graph import StateGraph, END, MessagesState
-from agent_tools import PreprocessingTool, PDFAgentState, PaperContent, PaperInfo
+from agents.agent_tools_v0 import PreprocessingTool, PDFAgentState, PaperContent, PaperInfo
 import os
 
 tools = PreprocessingTool.get_tools()
