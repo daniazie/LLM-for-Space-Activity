@@ -1,0 +1,81 @@
+Looking in indexes: https://pypi.org/simple, https://download.pytorch.org/whl/xpu
+Collecting intel-cmplr-lib-rt==2025.1.1
+  Using cached https://download.pytorch.org/whl/xpu/intel_cmplr_lib_rt-2025.1.1-py2.py3-none-win_amd64.whl.metadata (1.2 kB)
+Collecting intel-cmplr-lic-rt==2025.1.1
+  Using cached https://download.pytorch.org/whl/xpu/intel_cmplr_lic_rt-2025.1.1-py2.py3-none-win_amd64.whl.metadata (1.2 kB)
+Requirement already satisfied: setuptools in c:\users\dania\anaconda3\lib\site-packages (80.9.0)
+Collecting torch==2.8.0+xpu
+  Using cached https://download.pytorch.org/whl/xpu/torch-2.8.0%2Bxpu-cp313-cp313-win_amd64.whl.metadata (30 kB)
+Collecting torchaudio==2.8.0+xpu
+  Using cached https://download.pytorch.org/whl/xpu/torchaudio-2.8.0%2Bxpu-cp313-cp313-win_amd64.whl.metadata (7.4 kB)
+Requirement already satisfied: filelock in c:\users\dania\anaconda3\lib\site-packages (from torch==2.8.0+xpu) (3.17.0)
+Requirement already satisfied: typing-extensions>=4.10.0 in c:\users\dania\anaconda3\lib\site-packages (from torch==2.8.0+xpu) (4.12.2)
+Requirement already satisfied: sympy>=1.13.3 in c:\users\dania\anaconda3\lib\site-packages (from torch==2.8.0+xpu) (1.13.3)
+Requirement already satisfied: networkx in c:\users\dania\anaconda3\lib\site-packages (from torch==2.8.0+xpu) (3.4.2)
+Requirement already satisfied: jinja2 in c:\users\dania\anaconda3\lib\site-packages (from torch==2.8.0+xpu) (3.1.6)
+Requirement already satisfied: fsspec in c:\users\dania\anaconda3\lib\site-packages (from torch==2.8.0+xpu) (2025.3.2)
+Collecting intel-cmplr-lib-ur==2025.1.1 (from torch==2.8.0+xpu)
+  Using cached https://download.pytorch.org/whl/xpu/intel_cmplr_lib_ur-2025.1.1-py2.py3-none-win_amd64.whl.metadata (1.3 kB)
+Collecting intel-sycl-rt==2025.1.1 (from torch==2.8.0+xpu)
+  Using cached https://download.pytorch.org/whl/xpu/intel_sycl_rt-2025.1.1-py2.py3-none-win_amd64.whl.metadata (1.6 kB)
+Requirement already satisfied: onemkl-sycl-blas==2025.1.0 in c:\users\dania\anaconda3\lib\site-packages (from torch==2.8.0+xpu) (2025.1.0)
+Requirement already satisfied: onemkl-sycl-dft==2025.1.0 in c:\users\dania\anaconda3\lib\site-packages (from torch==2.8.0+xpu) (2025.1.0)
+Requirement already satisfied: onemkl-sycl-lapack==2025.1.0 in c:\users\dania\anaconda3\lib\site-packages (from torch==2.8.0+xpu) (2025.1.0)
+Requirement already satisfied: onemkl-sycl-rng==2025.1.0 in c:\users\dania\anaconda3\lib\site-packages (from torch==2.8.0+xpu) (2025.1.0)
+Requirement already satisfied: onemkl-sycl-sparse==2025.1.0 in c:\users\dania\anaconda3\lib\site-packages (from torch==2.8.0+xpu) (2025.1.0)
+Requirement already satisfied: dpcpp-cpp-rt==2025.1.1 in c:\users\dania\anaconda3\lib\site-packages (from torch==2.8.0+xpu) (2025.1.1)
+Requirement already satisfied: intel-opencl-rt==2025.1.1 in c:\users\dania\anaconda3\lib\site-packages (from torch==2.8.0+xpu) (2025.1.1)
+Requirement already satisfied: mkl==2025.1.0 in c:\users\dania\anaconda3\lib\site-packages (from torch==2.8.0+xpu) (2025.1.0)
+Requirement already satisfied: intel-openmp==2025.1.1 in c:\users\dania\anaconda3\lib\site-packages (from torch==2.8.0+xpu) (2025.1.1)
+Requirement already satisfied: tbb==2022.1.0 in c:\users\dania\anaconda3\lib\site-packages (from torch==2.8.0+xpu) (2022.1.0)
+Collecting tcmlib==1.3.0 (from torch==2.8.0+xpu)
+  Using cached https://download.pytorch.org/whl/xpu/tcmlib-1.3.0-py2.py3-none-win_amd64.whl.metadata (1.0 kB)
+Collecting umf==0.10.0 (from torch==2.8.0+xpu)
+  Using cached https://download.pytorch.org/whl/xpu/umf-0.10.0-py2.py3-none-win_amd64.whl.metadata (1.1 kB)
+Requirement already satisfied: intel-pti==0.12.3 in c:\users\dania\anaconda3\lib\site-packages (from torch==2.8.0+xpu) (0.12.3)
+Requirement already satisfied: pytorch-triton-xpu==3.4.0 in c:\users\dania\anaconda3\lib\site-packages (from torch==2.8.0+xpu) (3.4.0)
+Requirement already satisfied: mpmath<1.4,>=1.1.0 in c:\users\dania\anaconda3\lib\site-packages (from sympy>=1.13.3->torch==2.8.0+xpu) (1.3.0)
+Requirement already satisfied: MarkupSafe>=2.0 in c:\users\dania\anaconda3\lib\site-packages (from jinja2->torch==2.8.0+xpu) (3.0.2)
+Using cached https://download.pytorch.org/whl/xpu/intel_cmplr_lib_rt-2025.1.1-py2.py3-none-win_amd64.whl (17.4 MB)
+Using cached https://download.pytorch.org/whl/xpu/intel_cmplr_lic_rt-2025.1.1-py2.py3-none-win_amd64.whl (49 kB)
+Using cached https://download.pytorch.org/whl/xpu/torch-2.8.0%2Bxpu-cp313-cp313-win_amd64.whl (1152.5 MB)
+Using cached https://download.pytorch.org/whl/xpu/torchaudio-2.8.0%2Bxpu-cp313-cp313-win_amd64.whl (2.5 MB)
+Using cached https://download.pytorch.org/whl/xpu/intel_cmplr_lib_ur-2025.1.1-py2.py3-none-win_amd64.whl (1.1 MB)
+Using cached https://download.pytorch.org/whl/xpu/umf-0.10.0-py2.py3-none-win_amd64.whl (193 kB)
+Using cached https://download.pytorch.org/whl/xpu/tcmlib-1.3.0-py2.py3-none-win_amd64.whl (356 kB)
+Using cached https://download.pytorch.org/whl/xpu/intel_sycl_rt-2025.1.1-py2.py3-none-win_amd64.whl (11.1 MB)
+Installing collected packages: tcmlib, intel-cmplr-lic-rt, intel-cmplr-lib-rt, umf, intel-cmplr-lib-ur, intel-sycl-rt, torch, torchaudio
+  Attempting uninstall: tcmlib
+    Found existing installation: tcmlib 1.4.0
+    Uninstalling tcmlib-1.4.0:
+      Successfully uninstalled tcmlib-1.4.0
+  Attempting uninstall: intel-cmplr-lic-rt
+    Found existing installation: intel-cmplr-lic-rt 2025.2.1
+    Uninstalling intel-cmplr-lic-rt-2025.2.1:
+      Successfully uninstalled intel-cmplr-lic-rt-2025.2.1
+  Attempting uninstall: intel-cmplr-lib-rt
+    Found existing installation: intel-cmplr-lib-rt 2025.2.1
+    Uninstalling intel-cmplr-lib-rt-2025.2.1:
+      Successfully uninstalled intel-cmplr-lib-rt-2025.2.1
+  Attempting uninstall: umf
+    Found existing installation: umf 0.11.0
+    Uninstalling umf-0.11.0:
+      Successfully uninstalled umf-0.11.0
+  Attempting uninstall: intel-cmplr-lib-ur
+    Found existing installation: intel-cmplr-lib-ur 2025.2.1
+    Uninstalling intel-cmplr-lib-ur-2025.2.1:
+      Successfully uninstalled intel-cmplr-lib-ur-2025.2.1
+  Attempting uninstall: intel-sycl-rt
+    Found existing installation: intel-sycl-rt 2025.2.1
+    Uninstalling intel-sycl-rt-2025.2.1:
+      Successfully uninstalled intel-sycl-rt-2025.2.1
+  Attempting uninstall: torch
+    Found existing installation: torch 2.8.0
+    Uninstalling torch-2.8.0:
+      Successfully uninstalled torch-2.8.0
+  Attempting uninstall: torchaudio
+    Found existing installation: torchaudio 2.8.0
+    Uninstalling torchaudio-2.8.0:
+      Successfully uninstalled torchaudio-2.8.0
+
+Successfully installed intel-cmplr-lib-rt-2025.1.1 intel-cmplr-lib-ur-2025.1.1 intel-cmplr-lic-rt-2025.1.1 intel-sycl-rt-2025.1.1 tcmlib-1.3.0 torch-2.8.0+xpu torchaudio-2.8.0+xpu umf-0.10.0
