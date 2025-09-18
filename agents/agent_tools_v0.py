@@ -52,6 +52,14 @@ class PaperContent(BaseModel):
 class PDFAgentState(MessagesState):
     final_response: PaperContent
 
+class SearchQuery(TypedDict):
+    title: Annotated[str, ..., 'Title of the research paper']
+    link: Annotated[str, ..., 'URL to paper.']
+
+class SearchTool:
+    def __init__(self):
+        load_dotenv()
+
 class PreprocessingTool:
     def __init__(self):
         load_dotenv()
